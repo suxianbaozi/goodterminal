@@ -6,7 +6,13 @@ goodterminal
 
 用法
 
-将所有文件的文件名前加.
-然后复制到 用户目录 即可
+cd ~
+
+
+git clone 
+
+将bashrc内的内容复制到 ~/.bashrc内即可，记得修改名字 在最后一行
+
+
 
 
