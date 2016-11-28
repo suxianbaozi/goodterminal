@@ -3,12 +3,12 @@ alias ll="ls -g"
 
 #source ~/.git-completion.bash
 
-if [ -f ~/.git-completion.bash ]; then
-    source ~/.git-completion.bash
+if [ -f ~/goodterminal/git-completion.bash ]; then
+    source ~/goodterminal/git-completion.bash
     GIT_PS1_SHOWDIRTYSTATE=true
 fi
-source ~/.git-prompt.sh
-source ~/.color_show.bash
+source ~/goodterminal/git-prompt.sh
+source ~/goodterminal/color_show.bash
 
 GIT_PS1_SHOWCOLORHINTS=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
