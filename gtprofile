@@ -13,7 +13,7 @@ GIT_PS1_SHOWCOLORHINTS=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM="verbose"
 GIT_PS1_DESCRIBE_STYLE="describe"
-PROMPT_COMMAND='__git_ps1 "$blue[$magenta\u$blue@$green"your_server_name"$blue:$cyan\w$normal$blue]" "\\\$$normal "'
+PROMPT_COMMAND='__git_ps1 "$blue[$magenta\u$blue@$green\h$blue:$cyan\w$normal$blue]" "\\\$$normal "'
 
 #PS1="$blue[$magenta\u$blue@$green\h$blue:$cyan\w\$(__git_ps1 ' (%s)')$blue]\$ $normal"
 
