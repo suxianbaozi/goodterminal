@@ -15,4 +15,6 @@ sudo vi /etc/bashrc
 加入内容 
 source /etc/goodterminal/gtprofile
 
+立即生效的话，直接执行命令
 
+source /etc/goodterminal/gtprofile
