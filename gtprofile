@@ -1,5 +1,5 @@
 alias ls="ls -G"
-alias ll="ls -g"
+alias ll="ls -l"
 
 
 if [ -f /etc/goodterminal/git-completion.bash ]; then
